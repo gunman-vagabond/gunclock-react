@@ -14,7 +14,7 @@
   "scripts": {
     "_prebuild": "export GUNCLOCK_API=https://gunclock-api-express.herokuapp.com/gunclock && node scripts/prebuild.js",
     "prebuild": "node scripts/prebuild.js",
-    "start": "react-scripts start",
+    "start": "PORT=3001 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
